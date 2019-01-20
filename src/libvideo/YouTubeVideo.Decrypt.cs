@@ -10,6 +10,7 @@ namespace VideoLibrary
 {
     public partial class YouTubeVideo
     {
+        // вот это поворот
         private static readonly Regex DecryptionFunctionRegex = new Regex(@"\bc\s*&&\s*d\.set\([^,]+\s*,\s*\([^)]*\)\s*\(\s*([a-zA-Z0-9$]+)\(");
         private static readonly Regex FunctionRegex = new Regex(@"\w+(?:.|\[)(\""?\w+(?:\"")?)\]?\(");
 
